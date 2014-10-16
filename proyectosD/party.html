@@ -1,0 +1,33 @@
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$(".cerrarX").each(function(){
+			
+			$(this).mouseenter(function() {
+				$(this).stop().animate({backgroundPosition:"(-33px 0px)"}, {duration:100});	
+			});
+			$(this).mouseleave(function() {	
+				$(this).stop().animate({backgroundPosition:"(0px 0px)"}, {duration:100});
+			});
+			$(this).click(function (){
+				
+				$.scrollTo('.contenidoD',800);
+				$(".loadD").delay(500).slideUp("slow");
+			});
+		});
+		
+	});
+</script>
+
+	<style type="text/css"></style></head><body style="zoom: 1;"><div class="margen"></div>
+    <div class="cerrarX"></div>
+    <h1>MARGARITAVILLE</h1><hr>
+    <h2>PARTY IT UP</h2><hr>
+    <h3>DESIGN</h3>
+    <img src="./party_files/party1.jpg" alt="Margaritaville">
+    <img src="./party_files/party2.jpg" alt="Margaritaville">
+    <img src="./party_files/party3.jpg" alt="Margaritaville">
+    <img src="./party_files/party4.jpg" alt="Margaritaville">
+    <img src="./party_files/party5.jpg" alt="Margaritaville">
+    <div class="cerrarX"></div>
+    <div class="margen"></div>

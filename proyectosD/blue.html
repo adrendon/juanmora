@@ -1,0 +1,32 @@
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$(".cerrarX").each(function(){
+			
+			$(this).mouseenter(function() {
+				$(this).stop().animate({backgroundPosition:"(-33px 0px)"}, {duration:100});	
+			});
+			$(this).mouseleave(function() {	
+				$(this).stop().animate({backgroundPosition:"(0px 0px)"}, {duration:100});
+			});
+			$(this).click(function (){
+				
+				$.scrollTo('.contenidoD',800);
+				$(".loadD").delay(500).slideUp("slow");
+			});
+		});
+		
+	});
+</script>
+
+	<div class="margen"></div>
+    <div class="cerrarX"></div>
+    <h1>DIAGEO</h1><hr/>
+    <h2>IPAD APP</h2><hr/>
+    <h3>DESIGN</h3>
+    <img src="images/design/grande/blue1.jpg" alt="Blue Label" />
+    <img src="images/design/grande/blue2.jpg" alt="Blue Label" />
+    <img src="images/design/grande/blue3.jpg" alt="Blue Label" />
+    <img src="images/design/grande/blue4.jpg" alt="Blue Label" />
+    <div class="cerrarX"></div>
+    <div class="margen"></div>

@@ -1,0 +1,39 @@
+
+<!-- saved from url=(0040)http://juanmora.me/proyectosD/guide.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><script type="text/javascript">
+	$(document).ready(function(){
+		
+		$(".cerrarX").each(function(){
+			
+			$(this).mouseenter(function() {
+				$(this).stop().animate({backgroundPosition:"(-33px 0px)"}, {duration:100});	
+			});
+			$(this).mouseleave(function() {	
+				$(this).stop().animate({backgroundPosition:"(0px 0px)"}, {duration:100});
+			});
+			$(this).click(function (){
+				
+				$.scrollTo('.contenidoD',800);
+				$(".loadD").delay(500).slideUp("slow");
+			});
+		});
+		
+	});
+</script>
+
+	<style type="text/css"></style></head><body style="zoom: 1;"><div class="margen"></div>
+    <div class="cerrarX"></div>
+    <h1>MARGARITAVILLE</h1><hr>
+    <h2>ULTIMATE PARTY GUIDE</h2><hr>
+    <h3>DESIGN AND IDEA</h3>
+    <img src="./guide_files/guide1.jpg" alt="Margaritaville">
+    <img src="./guide_files/guide2.jpg" alt="Margaritaville">
+    <img src="./guide_files/guide3.jpg" alt="Margaritaville">
+    <img src="./guide_files/guide4.jpg" alt="Margaritaville">
+    <img src="./guide_files/guide5.jpg" alt="Margaritaville">
+    <img src="./guide_files/guide6.jpg" alt="Margaritaville">
+    <img src="./guide_files/guide7.jpg" alt="Margaritaville">
+    <div class="cerrarX"></div>
+    <div class="margen"></div>
+    
+<div id="shadowMeasureIt"></div><div id="divCoordMeasureIt"></div><div id="divRectangleMeasureIt"><div id="divRectangleBGMeasureIt"></div></div></body></html>

@@ -1,0 +1,26 @@
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$(".cerrarX").each(function(){
+			
+			$(this).mouseenter(function() {
+				$(this).stop().animate({backgroundPosition:"(-33px 0px)"}, {duration:100});	
+			});
+			$(this).mouseleave(function() {	
+				$(this).stop().animate({backgroundPosition:"(0px 0px)"}, {duration:100});
+			});
+			$(this).click(function (){
+				
+				$.scrollTo('.contenidoD',800);
+				$(".loadD").delay(500).slideUp("slow");
+			});
+		});
+		
+	});
+</script>
+
+	<div class="margen"></div>
+    <div class="cerrarX"></div>
+    <div class="about"></div>
+    <div class="cerrarX"></div>
+    <div class="margen"></div>
